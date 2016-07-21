@@ -1,0 +1,9 @@
+node_modules/
+.eslintrc
+.env
+.git
+.idea
+.vs
+/obj
+/typings
+/.idea

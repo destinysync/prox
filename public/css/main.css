@@ -1,0 +1,40 @@
+body {
+    background: #ffffff url('../img/noise.png') repeat;
+    padding-bottom: 50px;
+}
+
+#upload-input {
+    display: none;
+}
+
+.firewareInfoRow {
+    border: 1px solid cadetblue;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.firewareInfoRow:hover {
+    box-shadow: 0 1px 10px 1px #888888;
+}
+
+.firmwareName, .firmwareVersion {
+    display: inline-block;
+}
+
+.firmwareName {
+    margin-right: 30px;
+}
+
+.modal-content {
+    padding: 30px 30px 30px 30px;
+    height: 350px;
+}
+
+.modalOptions {
+    /*display: inline-block;*/
+    margin-bottom: 20px;
+}
+
+#downloadLinkSpan {
+    word-wrap: break-word;
+}
