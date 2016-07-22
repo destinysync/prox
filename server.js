@@ -36,7 +36,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(flash());
 app.use(session({
-	secret: 'secretClementine',
+	secret: 'secretDream',
 	resave: false,
 	saveUninitialized: true
 }));
@@ -46,7 +46,7 @@ app.use(passport.session());
 
 routes(app, passport);
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 80;
 app.listen(port,  function () {
 	console.log('Node.js listening on port ' + port + '...');
 });
